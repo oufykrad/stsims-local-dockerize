@@ -19,9 +19,8 @@ RUN apt-get update && apt-get install -y \
     vim \
     unzip \
     git \
-    curl \
-    docker-php-ext-install gd
-
+    curl
+    
 
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
